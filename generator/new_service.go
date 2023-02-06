@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"github.com/dave/jennifer/jen"
-	"github.com/kujtimiihoxha/kit/fs"
-	"github.com/kujtimiihoxha/kit/utils"
+	"github.com/ml444/kitcli/fs"
+	"github.com/ml444/kitcli/utils"
 	"github.com/spf13/viper"
 )
 

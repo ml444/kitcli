@@ -7,8 +7,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/kujtimiihoxha/kit/cmd"
-	"github.com/kujtimiihoxha/kit/utils"
+	"github.com/ml444/kitcli/cmd"
+	"github.com/ml444/kitcli/utils"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/afero"
 	"github.com/spf13/viper"
@@ -17,7 +17,7 @@ import (
 func main() {
 	setDefaults()
 	viper.AutomaticEnv()
-	gosrc := strings.TrimSuffix(utils.GetGOPATH(), afero.FilePathSeparator ) + afero.FilePathSeparator + "src" + afero.FilePathSeparator
+	gosrc := strings.TrimSuffix(utils.GetGOPATH(), afero.FilePathSeparator) + afero.FilePathSeparator + "src" + afero.FilePathSeparator
 	pwd, err := os.Getwd()
 	if err != nil {
 		logrus.Error(err)

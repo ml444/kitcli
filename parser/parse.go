@@ -9,7 +9,7 @@ import (
 	"go/token"
 	"strings"
 
-	"github.com/kujtimiihoxha/kit/utils"
+	"github.com/ml444/kitcli/utils"
 	"github.com/sirupsen/logrus"
 )
 
