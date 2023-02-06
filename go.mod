@@ -1,4 +1,4 @@
-module github.com/kujtimiihoxha/kit
+module github.com/ml444/kitcli
 
 go 1.19
 
